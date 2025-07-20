@@ -16,7 +16,8 @@ pinecone_api_key = os.environ['PINECONE_API_KEY']
 index_name = 'custom-gpt'
 
 pc = Pinecone(api_key=pinecone_api_key)
-spec = ServerlessSpec(cloud='aws', region='us-east-1')
+# spec = ServerlessSpec(cloud='aws', region='us-east-1')
+# 
 
 # Check if index exists and create if not
 existing_indexes = [index_info["name"] for index_info in pc.list_indexes()]
