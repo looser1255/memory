@@ -1,3 +1,9 @@
+---
+layout: default
+title: Datenschutz
+permalink: /datenschutz
+---
+
 # Datenschutzerklärung für Custom GPT „Memory-GPT“
 
 ## Allgemeines
